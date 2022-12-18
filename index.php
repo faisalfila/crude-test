@@ -10,7 +10,13 @@
 <body>
     <div class="container">
             <h1>PHP + MySQL CRUD</h1>
-            <p>Learn the beasics of CRUD</p>
+            <p>Learn the basics of CRUD</p>
+
+            <table class="table">
+                <tbody>
+                    <?php include 'read.php'; ?>
+                </tbody>
+            </table>
 
             <form class="form-inline m-2" action="create.php" method="POST">
                 <label for="name">Name: </Label>
