@@ -18,7 +18,7 @@
             echo "<td>" . $row['score'] . "</td>";
             echo '<td><a class="btn btn-primary" href="index.php?id=' . $row['id'] . '" role="button">Update</a></td>';
         }
-        echo '<td><a class="btn btn-danger" href="index.php?id=' . $row['id'] . '" role="button">Delete</a></td>';
+        echo '<td><a class="btn btn-danger" href="delete.php?id=' . $row['id'] . '" role="button">Delete</a></td>';
         echo "</tr>";
     }
 
